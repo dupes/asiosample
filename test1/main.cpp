@@ -21,6 +21,8 @@
 // timers: http://think-async.com/Asio/asio-1.10.6/doc/asio/overview/timers.html
 // http://en.cppreference.com/w/cpp/chrono
 // http://blog.think-async.com/2010/04/bind-illustrated.html
+// http://stackoverflow.com/questions/9048119/why-cant-stdbind-and-boostbind-be-used-interchangeably-in-this-boost-asio-t
+// * use lamdas
 
 void handler(int *x, const asio::error_code &ec)
 {
