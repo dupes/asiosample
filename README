@@ -1,0 +1,3 @@
+* add ASIO_STANDALONE to build w/o boost
+* build uses ASIO_HOME env variable
+

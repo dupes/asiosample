@@ -1,0 +1,1 @@
+CCFLAGS=['-O3', '-DNDEBUG']

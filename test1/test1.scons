@@ -1,0 +1,2 @@
+CPPPATH=['${ASIO_HOME}/include']
+CCFLAGS=['-std=c++11', '-Wno-deprecated-declarations', '-fpermissive', '-DASIO_STANDALONE']

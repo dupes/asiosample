@@ -1,0 +1,5 @@
+CXX=arm-linux-gnueabi-g++
+CC=arm-linux-gnueabi-gcc
+CCFLAGS=['-pthread', '--sysroot=${ARIETTA_ROOT}', '-Wl,-rpath-link=${ARIETTA_ROOT}/usr/lib/arm-linux-gnueabi/', '-Wl,-rpath-link=${ARIETTA_ROOT}/lib/arm-linux-gnueabi/']
+LINKFLAGS=['--sysroot=${ARIETTA_ROOT}', '-Wl,-rpath-link=${ARIETTA_ROOT}/usr/lib/arm-linux-gnueabi/', '-Wl,-rpath-link=${ARIETTA_ROOT}/lib/arm-linux-gnueabi/']
+CPPPATH=['${ARIETTA_ROOT}/usr/include/c++/4.6/', '${ARIETTA_ROOT}/usr/include/arm-linux-gnueabi/c++/4.6', '${ARIETTA_ROOT}/usr/include/c++/4.6/arm-linux-gnueabi']
