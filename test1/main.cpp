@@ -27,6 +27,15 @@
 // http://curl.haxx.se/libcurl/c/asiohiper.html
 // * curl with ASIO
 
+// http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3388.pdf
+// * asio example
+
+// http://think-async.com/Asio/asio-1.10.6/doc/asio/tutorial/tuttimer4.html
+// * using member functions
+
+// http://think-async.com/Asio/asio-1.10.6/doc/asio/overview/cpp2011/futures.html
+// * futures
+
 void handler(int *x, const asio::error_code &ec)
 {
 	std::cout << "handler called" << std::endl;
