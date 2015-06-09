@@ -24,6 +24,9 @@
 // http://stackoverflow.com/questions/9048119/why-cant-stdbind-and-boostbind-be-used-interchangeably-in-this-boost-asio-t
 // * use lamdas
 
+// http://curl.haxx.se/libcurl/c/asiohiper.html
+// * curl with ASIO
+
 void handler(int *x, const asio::error_code &ec)
 {
 	std::cout << "handler called" << std::endl;
